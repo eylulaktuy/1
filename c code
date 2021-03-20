@@ -1,7 +1,7 @@
 #include<stdio.h>
 void func(int num[],int x)
 {
-    int key,i,n,count=0,k;
+        int key,i,n,count=0,k;
 	for(i=0;i<x;i++)
 	{
 		scanf("%d",&num[i]);
@@ -34,9 +34,9 @@ int main()
 {
     int num[30];	
     int x;
-	printf("Enter N:");
-	scanf("%d",&x);
-	printf("\nEnter %d integers:",x);
-	func(num,x);
-	return(0);
+    printf("Enter N:");
+    scanf("%d",&x);
+    printf("\nEnter %d integers:",x);
+    func(num,x);
+    return(0);
 }
